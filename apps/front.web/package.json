@@ -1,0 +1,29 @@
+{
+	"name": "@apps/front.web",
+	"author": "Ilya Rogachev",
+	"packageManager": "yarn@3.6.1",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"cleanup": "yarn dlx rimraf .next",
+		"check:typescript": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@libs/ui": "workspace:*",
+		"next": "^13.4.8",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@libs/config": "workspace:*",
+		"@types/node": "^20.4.0",
+		"@types/react": "^18.2.14",
+		"@types/react-dom": "^18.2.6",
+		"@types/tailwindcss": "^3.1.0",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.25",
+		"tailwindcss": "^3.3.2",
+		"typescript": "^5.1.6"
+	}
+}
