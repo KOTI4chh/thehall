@@ -1,0 +1,10 @@
+node_modules/**/*
+dist/**/*
+es6/**/*
+es2015/**/*
+esnext/**/*
+**/.next/**/*
+.eslintcache
+.pnp.сjs
+**/_ignore-*/**/*
+*.local.{js,ts,tsx}

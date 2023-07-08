@@ -1,0 +1,42 @@
+# ENV
+
+**/.env.local
+**/.env.*.local
+
+# node_modules and dist folders
+
+apps/**/.next
+node_modules
+**/node_modules
+
+# Yarn
+
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Cache
+
+.cache/*
+tsconfig.tsbuildinfo
+.eslintcache
+
+# GIT
+
+.git
+.gitignore
+.gitattributes
+.github
+
+# IDE
+
+.idea
+.DS_Store
+
+# Logs
+
+logs
+*.log
